@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="description" content="Roughly 155 characters">
+    <style>
+        #myTable {
+            display: none;
+        }
+        #show:target ~ #myTable {
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        About Me
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    </h1>
+
+    <h3>
+        <p>
+            Name: Lau Jia Zong
+            <br>Education Path: East Coast Primary School -> Damai Primary School (merger) -> Victoria School -> Victoria Junior College
+            <br><a href="">Past Projects</a>
+        </p>
+    </h3>
+    
+    <a href="#show" id="showTableButton">Show Table</a>
+    <div id="show"></div>
+    <table id="myTable" bgcolor="black" width="1000">
+        <tr bgcolor="lightgrey">
+            <th width="600"><h1 style="color:green;">Likes</h1></th>
+            <th width="400"><h1 style="color:red;">Dislikes</h1></th>
+        </tr>
+        <tr bgcolor="lightgrey">
+            <td>
+                <ol>
+                    <li><h2>Nyan Cat</h2>
+                        <img src="Nyan cat 2.png" alt="Nyan Cat">
+                    </li>
+                    <li><h2>Games</h2>
+                        <ul>
+                            <li><a href="https://www.mobiusdigitalgames.com/outer-wilds.html">Outer Wilds</a></li>
+                            <li><a href="https://undertale.com">Undertale</a></li>
+                            <li><a href="https://neonwhite.rip">Neon White</a></li>
+                        </ul>
+                    </li>
+                    <li><h2>Cartoon shows</h2>
+                        <ul>
+                            <li>The Amazing World of Gumball</li>
+                            <li>Slugterra</li>
+                            <li>Adventure Time</li>
+                            <li>Oggy and the Cockroaches</li>
+                            <li>Canimals</li>
+                        </ul>
+                    </li>
+                    <li><h2>Books</h2>
+                        <ul>
+                            <li><a href="https://www.mitchalbom.com/books/five-people-excerpt/">The Midnight Library</a> (Novel by Matt Haig)</li>
+                            <li><a href="https://www.penguinrandomhouse.com/articles/the-midnight-library-by-matt-haig-excerpt/">The Five People You Meet in Heaven</a> (Novel by Mitch Albom)</li>
+                            <li><a href="https://us.macmillan.com/books/9781250266019/thefoxwife">The Fox Wife: A Novel</a> (Book by Yangsze Choo)</li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Studying</li>
+                    <li>Mushrooms</li>
+                    <li>Pineapple</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
